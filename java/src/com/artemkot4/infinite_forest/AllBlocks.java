@@ -8,4 +8,5 @@ import ru.koshakmine.icstd.modloader.ObjectFactory;
 public class AllBlocks {
     private static final ObjectFactory factory = Mod.getFactory();
     public static final Block FIRONIA = factory.addBlock(Fironia::new);
+    public static void init() {}
 }

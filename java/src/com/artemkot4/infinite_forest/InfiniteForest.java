@@ -17,6 +17,6 @@ public class InfiniteForest extends Mod {
     @Override
     public void runMod(ObjectFactory objectFactory) {
         TranslationLoader.loadTranslation(getDir()+"lang", "en");
-
+        AllBlocks.init();
     }
 }
