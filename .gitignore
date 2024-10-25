@@ -2,3 +2,6 @@ output
 tsconfig.json
 *.log
 *.icmod
+.idea/workspace.xml
+.idea/uiDesigner.xml
+.idea/workspace.xml
