@@ -1,0 +1,8 @@
+{
+    "blocks.block_machine_wooden": "Деревянный машинный блок",
+    "items.gear_wood": "Деревянная шестерня",
+    "items.gear_stone": "Каменная шестерня",
+
+    "group.mechanic": "Механические блоки",
+    "group.material": "Материалы"
+}

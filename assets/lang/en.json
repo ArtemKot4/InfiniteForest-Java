@@ -1,0 +1,8 @@
+{
+    "blocks.block_machine_wooden": "Wooden Machine Block",
+    "items.gear_wood": "Wooden Gear",
+    "items.gear_stone": "Stone Gear",
+
+    "group.mechanic": "Mechanic block",
+    "group.material": "Materials"
+}

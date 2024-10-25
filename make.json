@@ -1,0 +1,50 @@
+{
+	"$schema": "https://raw.githubusercontent.com/zheka2304/innercore-mod-toolchain/develop/toolchain/schemas/make.schema.json",
+	"info": {
+		"name": "Infinite Forest Java",
+		"author": "ArtemKot",
+		"version": "1.0",
+		"description": "description",
+		"clientOnly": false
+	},
+	"development": {
+		"comparingMode": "modify"
+	},
+	"resources": [
+		{
+			"path": "assets/resources",
+			"type": "resource_directory"
+		},
+		{
+			"path": "assets/gui",
+			"type": "gui"
+		}
+	],
+	"sources": [
+		{
+			"source": "launcher.js",
+			"type": "launcher",
+			"language": "javascript"
+		}
+	],
+	"compile": [
+		{
+			"source": "java",
+			"type": "java"
+		}
+	],
+	"additional": [
+		{
+			"source": "icstd.json",
+			"targetDir": "."
+		},
+		{
+			"source": "assets/lang",
+			"targetDir": "."
+		},
+		{
+			"source": "assets/windows",
+			"targetDir": "."
+		}
+	]
+}
