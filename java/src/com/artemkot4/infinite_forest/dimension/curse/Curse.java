@@ -21,7 +21,8 @@ public abstract class Curse {
         if(flag == null) {
 
             Map<String, Boolean> map = new HashMap<>();
-            map.put(this.id, true);
+
+              map.put(id, true);
 
             Forest.setFlag(NetworkSide.LOCAL, "curse", map);
         };
@@ -37,15 +38,18 @@ public abstract class Curse {
                 flag.put(id, true);
 
                }
-            }
-            ;
+
+        };
+
     }
 
     public boolean hasWorld(NetworkSide side) {
         Map<String, Boolean> flag = Forest.getFlag(side, "curse");
 
         if(flag == null || flag.get(id) == null) {
+
            throw new NullPointerException("hasWorld: Key does not exists");
+
         };
 
         return flag.get(id);
@@ -65,12 +69,14 @@ public abstract class Curse {
         Map<String, Boolean> flag = Forest.getFlag(side, "curse");
 
         if(flag == null || flag.get(id) == null) {
+
             throw new NullPointerException("Destroy: Key does not exists");
+
         };
 
-        flag.put(id, false);
+            flag.put(id, false);
 
-        Forest.setFlag(side, "curse", flag);
+          Forest.setFlag(side, "curse", flag);
         }
 
 

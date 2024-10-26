@@ -52,4 +52,8 @@ public class Forest {
         //Network.registerPacket();
     };
 
+    public static int getId() {
+        return dimension.id;
+    }
+
 }

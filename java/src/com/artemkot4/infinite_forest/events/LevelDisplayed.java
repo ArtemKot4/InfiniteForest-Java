@@ -5,9 +5,15 @@ import ru.koshakmine.icstd.event.Event;
 import ru.koshakmine.icstd.event.Events;
 
 public class LevelDisplayed {
+
     public static void init() {
+
         Event.onCall(Events.LevelDisplayed, (args) -> {
+
             AllCurses.COLD.init();
+            AllCurses.LIGHTNING.init();
+            AllCurses.DUNGEON.init();
+
         });
     }
 }
