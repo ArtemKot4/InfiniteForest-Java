@@ -8,4 +8,6 @@ public class EucalyptusPlanks extends Planks {
     public EucalyptusPlanks() {
         super("eucalyptus_planks", AllBlocks.EucalyptusLog);
     };
+
+
 }

@@ -1,6 +1,7 @@
 package com.artemkot4.infinite_forest.blocks.plants;
 
 import ru.koshakmine.icstd.block.Block;
+import ru.koshakmine.icstd.type.CreativeCategory;
 import ru.koshakmine.icstd.type.block.BlockID;
 import ru.koshakmine.icstd.type.block.SoundType;
 
@@ -47,6 +48,11 @@ public abstract class Plant extends Block {
       Plant.placeList.add(BlockID.PODZOL);
       Plant.placeList.add(BlockID.MYCELIUM);
       Plant.placeList.add(BlockID.DIRT);
-  }
+  };
+
+    @Override
+    public CreativeCategory getCreativeCategory() {
+        return CreativeCategory.NATURE;
+    }
 
 }

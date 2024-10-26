@@ -1,6 +1,7 @@
 package com.artemkot4.infinite_forest.blocks.wood;
 
 import ru.koshakmine.icstd.block.Block;
+import ru.koshakmine.icstd.type.CreativeCategory;
 import ru.koshakmine.icstd.type.block.SoundType;
 
 public abstract class Planks extends Block {
@@ -35,4 +36,8 @@ public abstract class Planks extends Block {
         return "block.infinite_forest." + ID;
     }
 
+    @Override
+    public CreativeCategory getCreativeCategory() {
+        return CreativeCategory.NATURE;
+    }
 }

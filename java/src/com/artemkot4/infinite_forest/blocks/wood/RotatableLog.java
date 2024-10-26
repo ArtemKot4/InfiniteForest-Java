@@ -1,6 +1,7 @@
 package com.artemkot4.infinite_forest.blocks.wood;
 
 import ru.koshakmine.icstd.block.Block;
+import ru.koshakmine.icstd.type.CreativeCategory;
 import ru.koshakmine.icstd.type.block.SoundType;
 
 public abstract class RotatableLog extends Block {
@@ -77,6 +78,11 @@ public abstract class RotatableLog extends Block {
     @Override
     public String getSoundType() {
         return SoundType.WOOD;
+    }
+
+    @Override
+    public CreativeCategory getCreativeCategory() {
+        return CreativeCategory.NATURE;
     }
 
 }
