@@ -2,6 +2,7 @@ package com.artemkot4.infinite_forest.blocks.plants;
 
 import com.artemkot4.infinite_forest.utils.FBlock;
 import ru.koshakmine.icstd.block.Block;
+import ru.koshakmine.icstd.level.Level;
 import ru.koshakmine.icstd.type.CreativeCategory;
 import ru.koshakmine.icstd.type.block.BlockID;
 import ru.koshakmine.icstd.type.block.SoundType;
@@ -17,7 +18,7 @@ public abstract class Plant extends FBlock {
 
       Block.registerNeighbourChanged(getNumId(), (pos, changePos, data, level) -> {
 
-          if(!isPlaceBlockAt(pos.x, pos.y - 1, pos.z)) {
+          if(!isPlaceBlockAt(pos.x, pos.y - 1, pos.z, level)) {
 
               level.destroyBlock(pos);
           }
@@ -25,7 +26,7 @@ public abstract class Plant extends FBlock {
 
       Block.registerPlace(getNumId(), (pos, stack, data, player, level) -> {
 
-          if(isPlaceBlockAt(pos.x, pos.y, pos.z)) {
+          if(isPlaceBlockAt(pos.x, pos.y, pos.z, level)) {
 
               level.setBlock((int)pos.x, (int)pos.y + 1, (int)pos.z, getNumId(), 0);
 
@@ -34,8 +35,8 @@ public abstract class Plant extends FBlock {
       });
   }
 
-  private boolean isPlaceBlockAt(float x, float y, float z) {
-      return placeList.contains(level.getBlockId((int)pos.x, (int)pos.y, (int)pos.z));
+  private boolean isPlaceBlockAt(float x, float y, float z, Level level) {
+      return placeList.contains(level.getBlockId((int)x, (int)y, (int)z));
   }
 
   public static ArrayList<Integer> placeList = new ArrayList<>();
