@@ -6,7 +6,15 @@ import ru.koshakmine.icstd.type.block.SoundType;
 
 public abstract class Planks extends Block {
     public String id;
-    public Block log;
+    public int log;
+
+    public Planks(String id, int log) {
+        this.id = id;
+        this.log = log;
+//        Mod.getFactory().add(new ShapelessRecipe(new ItemCraft(log.getNumId(), 0)).setEntries(new PatternData[]{
+//                new PatternData()
+//        }))
+    };
 
     @Override
     public String getId() {
@@ -18,13 +26,7 @@ public abstract class Planks extends Block {
         return SoundType.WOOD;
     };
 
-    public Planks(String id, Block log) {
-        this.id = id;
-        this.log = log;
-//        Mod.getFactory().add(new ShapelessRecipe(new ItemCraft(log.getNumId(), 0)).setEntries(new PatternData[]{
-//                new PatternData()
-//        }))
-    };
+
 
     @Override
     public String[] getTextures() {

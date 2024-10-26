@@ -7,20 +7,24 @@ import ru.koshakmine.icstd.recipes.workbench.PatternData;
 import ru.koshakmine.icstd.recipes.workbench.ShapedRecipe;
 
 public abstract class Bark extends RotatableLog {
-    public final Block log;
+    public final int log;
 
-    public Bark(String id, Block log) {
+    public Bark(String id, int log) {
         super(id);
 
         this.log = log;
 
-        Mod.getFactory().add(new ShapedRecipe(new ItemCraft(getNumId(),0)).setPattern(new String[]{
-              "aa ",
-              "aa ",
-              "   "
-      }, new PatternData[]{
-        new PatternData('a', this.log.getNumId())
-      }));
+    };
 
+    @Override
+    public void onInit() {
+        super.onInit();
+        Mod.getFactory().add(new ShapedRecipe(new ItemCraft(getNumId(),0)).setPattern(new String[]{
+                "aa ",
+                "aa ",
+                "   "
+        }, new PatternData[]{
+                new PatternData('a', log)
+        }));
     }
 }

@@ -21,14 +21,16 @@ public class AllBlocks {
 
     public static final Block FIRONIA = factory.addBlock(Fironia::new);
 
+    public static final Block EucalyptusLog = factory.addBlock(EucalyptusLog::new);
     public static final Block EucalyptusHewn = factory.addBlock(EucalyptusHewn::new);
     public static final Block EucalyptusBark = factory.addBlock(EucalyptusBark::new);
-    public static final Block EucalyptusLog = factory.addBlock(EucalyptusLog::new);
+
     public static final Block EucalyptusPlanks = factory.addBlock(EucalyptusPlanks::new);
 
+    public static final Block PinkLog = factory.addBlock(PinkLog::new);
     public static final Block PinkHewn = factory.addBlock(PinkHewn::new);
     public static final Block PinkBark = factory.addBlock(PinkBark::new);
-    public static final Block PinkLog = factory.addBlock(PinkLog::new);
+
     public static final Block PinkPlanks = factory.addBlock(PinkPlanks::new);
 
     public static final Block WinterLog = factory.addBlock(WinterLog::new);

@@ -11,9 +11,9 @@ import ru.koshakmine.icstd.type.common.ItemStack;
 
 
 public abstract class Log extends RotatableLog implements IClickable {
-    public Block hewn;
+    public int hewn;
 
-    public Log(String id, Block hewn) {
+    public Log(String id, int hewn) {
         super(id);
 
         this.hewn = hewn;
@@ -26,7 +26,7 @@ public abstract class Log extends RotatableLog implements IClickable {
 
         if (IDRegistry.getNameByID(stack.id).contains("axe")) {
 
-            level.setBlock((int)pos.x, (int)pos.y, (int)pos.z, this.hewn.getNumId(), level.getBlockData(pos));
+            level.setBlock((int)pos.x, (int)pos.y, (int)pos.z, this.hewn, level.getBlockData(pos));
             player.setCarriedItem(new ItemStack(stack.id, stack.count, stack.data++, stack.extra));
         };
     }
