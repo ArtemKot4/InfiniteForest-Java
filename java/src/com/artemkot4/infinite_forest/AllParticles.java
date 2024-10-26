@@ -2,6 +2,7 @@ package com.artemkot4.infinite_forest;
 
 import com.artemkot4.infinite_forest.particle.Cloud;
 import com.artemkot4.infinite_forest.particle.Rain;
+import com.artemkot4.infinite_forest.particle.Snowflake;
 import com.artemkot4.infinite_forest.particle.glowworm.*;
 import ru.koshakmine.icstd.level.particle.Particle;
 import ru.koshakmine.icstd.modloader.Mod;
@@ -19,6 +20,7 @@ public class AllParticles {
 
     public static final Particle CLOUD = factory.addParticle(Cloud::new);
     public static final Particle RAIN = factory.addParticle(Rain::new);
+    public static final Particle SNOWFLAKE = factory.addParticle(Snowflake::new);
 
 
     public static void init() {}
