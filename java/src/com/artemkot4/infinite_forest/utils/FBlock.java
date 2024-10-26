@@ -1,6 +1,8 @@
 package com.artemkot4.infinite_forest.utils;
 
+import com.zhekasmirnov.innercore.api.mod.adaptedscript.AdaptedScriptAPI.RenderMesh;
 import ru.koshakmine.icstd.block.Block;
+import ru.koshakmine.icstd.modloader.Mod;
 import ru.koshakmine.icstd.type.CreativeCategory;
 
 public class FBlock extends Block {
@@ -16,7 +18,6 @@ public class FBlock extends Block {
     public FBlock(String id) {
         this(id, new String[]{id});
     };
-
 
     @Override
     public String[] getTextures() {
@@ -41,5 +42,10 @@ public class FBlock extends Block {
     @Override
     public CreativeCategory getCreativeCategory() {
         return category != null ? category : CreativeCategory.MATERIAL;
+    };
+
+    public void setModel() {
+        RenderMesh mesh = new RenderMesh();
+        //mesh.importFromFile(dir? + "/resources/assets/models/" + obj.model + ".obj");
     }
 }

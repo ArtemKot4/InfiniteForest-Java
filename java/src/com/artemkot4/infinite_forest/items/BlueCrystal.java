@@ -5,6 +5,6 @@ import com.zhekasmirnov.innercore.api.constants.DimensionId;
 
 public class BlueCrystal extends TransferCrystal {
     public BlueCrystal() {
-        super("blue_crystal", DimensionId.OVERWORLD, Forest.dimension.id);
+        super("blue_crystal", DimensionId.OVERWORLD, Forest.getId());
     }
 }

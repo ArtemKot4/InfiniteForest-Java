@@ -3,7 +3,6 @@ package com.artemkot4.infinite_forest.items;
 import com.artemkot4.infinite_forest.utils.FItem;
 import com.zhekasmirnov.innercore.api.mod.adaptedscript.AdaptedScriptAPI.Dimensions;
 import ru.koshakmine.icstd.entity.Player;
-import ru.koshakmine.icstd.item.Item;
 import ru.koshakmine.icstd.item.event.IClickable;
 import ru.koshakmine.icstd.type.common.BlockData;
 import ru.koshakmine.icstd.type.common.BlockPosition;

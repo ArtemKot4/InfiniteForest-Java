@@ -26,8 +26,6 @@ public abstract class Planks extends Block {
         return SoundType.WOOD;
     };
 
-
-
     @Override
     public String[] getTextures() {
         return new String[]{id};

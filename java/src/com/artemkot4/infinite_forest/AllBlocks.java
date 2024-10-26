@@ -1,6 +1,7 @@
 package com.artemkot4.infinite_forest;
 
 import com.artemkot4.infinite_forest.blocks.plants.Fironia;
+import com.artemkot4.infinite_forest.blocks.plants.IceFlower;
 import com.artemkot4.infinite_forest.blocks.wood.eucalyptus.EucalyptusBark;
 import com.artemkot4.infinite_forest.blocks.wood.eucalyptus.EucalyptusHewn;
 import com.artemkot4.infinite_forest.blocks.wood.eucalyptus.EucalyptusLog;
@@ -20,6 +21,7 @@ public class AllBlocks {
     private static final ObjectFactory factory = Mod.getFactory();
 
     public static final Block FIRONIA = factory.addBlock(Fironia::new);
+    public static final Block ICE_FLOWER = factory.addBlock(IceFlower::new);
 
     public static final Block EucalyptusLog = factory.addBlock(EucalyptusLog::new);
     public static final Block EucalyptusHewn = factory.addBlock(EucalyptusHewn::new);

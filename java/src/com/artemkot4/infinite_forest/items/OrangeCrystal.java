@@ -5,6 +5,6 @@ import com.zhekasmirnov.innercore.api.constants.DimensionId;
 
 public class OrangeCrystal extends TransferCrystal {
     public OrangeCrystal() {
-        super("orange_crystal", Forest.dimension.id, DimensionId.OVERWORLD);
+        super("orange_crystal", Forest.getId(), DimensionId.OVERWORLD);
     }
 }

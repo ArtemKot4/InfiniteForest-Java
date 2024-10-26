@@ -13,11 +13,15 @@ import ru.koshakmine.icstd.type.common.BlockData;
 import ru.koshakmine.icstd.type.common.BlockPosition;
 import ru.koshakmine.icstd.type.common.ItemStack;
 import ru.koshakmine.icstd.type.common.Position;
+import ru.koshakmine.icstd.type.tools.BlockMaterials;
+import ru.koshakmine.icstd.type.tools.ToolLevel;
 
 import java.util.ArrayList;
 
 
 public abstract class Plant extends FBlock implements IPlaceBlock, INeighbourChanged {
+
+  public static ArrayList<Integer> placeList = new ArrayList<>();
 
   public Plant(String id) {
       super(id);
@@ -43,43 +47,61 @@ public abstract class Plant extends FBlock implements IPlaceBlock, INeighbourCha
         }
     }
 
-  private boolean isPlaceBlockAt(float x, float y, float z, Level level) {
-      return placeList.contains(level.getBlockId((int)x, (int)y, (int)z));
-  };
+    private boolean isPlaceBlockAt(float x, float y, float z, Level level) {
+        return placeList.contains(level.getBlockId((int)x, (int)y, (int)z));
+    };
 
-  public static ArrayList<Integer> placeList = new ArrayList<>();
-
-  @Override
-  public int getRenderType() {
+    @Override
+    public int getRenderType() {
       return 1;
   };
 
-  @Override
-  public float getTranslucency() {
+    @Override
+    public float getTranslucency() {
       return 0;
   };
 
-  @Override
-  public int getLightOpacity() {
+    @Override
+    public int getLightOpacity() {
       return 0;
   };
 
-  @Override
-  public int getRenderLayer() {
-      return 3;
-  };
+    @Override
+    public int getRenderLayer() {
+        return 3;
+    };
 
-  @Override
-  public float getDestroyTime() {
+    @Override
+    public float getDestroyTime() {
       return 0;
   };
 
-  @Override
-  public String getSoundType() {
+    @Override
+    public String getSoundType() {
       return SoundType.GRASS;
   };
 
-  static {
+    @Override
+    public boolean isSolid() {
+        return false;
+    };
+
+    @Override
+    public int getMaterialBase() {
+        return BlockID.LEAVES;
+    }
+
+    @Override
+    public int getToolLevel() {
+        return ToolLevel.ARM;
+    }
+
+    @Override
+    public String getBlockMaterial() {
+        return BlockMaterials.PLANT;
+    }
+
+    static {
       Plant.placeList.add(BlockID.GRASS);
       Plant.placeList.add(BlockID.GRASS_PATH);
       Plant.placeList.add(BlockID.PODZOL);
