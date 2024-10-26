@@ -1,5 +1,6 @@
 package com.artemkot4.infinite_forest.blocks.plants;
 
+import com.artemkot4.infinite_forest.utils.FBlock;
 import ru.koshakmine.icstd.block.Block;
 import ru.koshakmine.icstd.type.CreativeCategory;
 import ru.koshakmine.icstd.type.block.BlockID;
@@ -8,7 +9,34 @@ import ru.koshakmine.icstd.type.block.SoundType;
 import java.util.ArrayList;
 
 
-public abstract class Plant extends Block {
+public abstract class Plant extends FBlock {
+
+  public Plant(String id) {
+      super(id);
+      this.setCreativeCategory(CreativeCategory.NATURE);
+
+      Block.registerNeighbourChanged(getNumId(), (pos, changePos, data, level) -> {
+
+          if(!isPlaceBlockAt(pos.x, pos.y - 1, pos.z)) {
+
+              level.destroyBlock(pos);
+          }
+      });
+
+      Block.registerPlace(getNumId(), (pos, stack, data, player, level) -> {
+
+          if(isPlaceBlockAt(pos.x, pos.y, pos.z)) {
+
+              level.setBlock((int)pos.x, (int)pos.y + 1, (int)pos.z, getNumId(), 0);
+
+          };
+
+      });
+  }
+
+  private boolean isPlaceBlockAt(float x, float y, float z) {
+      return placeList.contains(level.getBlockId((int)pos.x, (int)pos.y, (int)pos.z));
+  }
 
   public static ArrayList<Integer> placeList = new ArrayList<>();
 
@@ -49,10 +77,5 @@ public abstract class Plant extends Block {
       Plant.placeList.add(BlockID.MYCELIUM);
       Plant.placeList.add(BlockID.DIRT);
   };
-
-    @Override
-    public CreativeCategory getCreativeCategory() {
-        return CreativeCategory.NATURE;
-    }
 
 }

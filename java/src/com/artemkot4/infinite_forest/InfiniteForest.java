@@ -24,6 +24,7 @@ public class InfiniteForest extends Mod {
         AllBlocks.init();
         AllItems.init();
         AllParticles.init();
+        AllCurses.init();
 
         ServerPlayerTick.init();
         ForestTick.init();

@@ -30,7 +30,7 @@ public abstract class Curse {
         if ((flag instanceof HashMap) && !(flag.get(id) instanceof Boolean)) {
 
             flag.put(id, true);
-            
+
         }
 
     }

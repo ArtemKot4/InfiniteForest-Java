@@ -9,4 +9,6 @@ public class AllCurses {
    public static final Curse COLD = new ColdCurse();
    public static final Curse LIGHTNING = new LightningCurse();
    public static final Curse DUNGEON = new DungeonCurse();
+
+   public static void init() {};
 }
