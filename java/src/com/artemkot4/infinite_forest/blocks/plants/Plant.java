@@ -2,6 +2,7 @@ package com.artemkot4.infinite_forest.blocks.plants;
 
 import ru.koshakmine.icstd.block.Block;
 import ru.koshakmine.icstd.type.block.BlockID;
+import ru.koshakmine.icstd.type.block.SoundType;
 
 import java.util.ArrayList;
 
@@ -37,7 +38,7 @@ public abstract class Plant extends Block {
 
   @Override
   public String getSoundType() {
-      return "grass";
+      return SoundType.GRASS;
   };
 
   static {
