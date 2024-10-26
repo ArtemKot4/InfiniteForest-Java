@@ -5,12 +5,12 @@ import ru.koshakmine.icstd.type.CreativeCategory;
 import ru.koshakmine.icstd.type.block.SoundType;
 
 public abstract class Planks extends Block {
-    public String ID;
-    public Block LOG;
+    public String id;
+    public Block log;
 
     @Override
     public String getId() {
-        return ID;
+        return id;
     };
 
     @Override
@@ -19,8 +19,8 @@ public abstract class Planks extends Block {
     };
 
     public Planks(String id, Block log) {
-        ID = id;
-        LOG = log;
+        this.id = id;
+        this.log = log;
 //        Mod.getFactory().add(new ShapelessRecipe(new ItemCraft(log.getNumId(), 0)).setEntries(new PatternData[]{
 //                new PatternData()
 //        }))
@@ -28,12 +28,12 @@ public abstract class Planks extends Block {
 
     @Override
     public String[] getTextures() {
-        return new String[]{ID};
+        return new String[]{id};
     }
 
     @Override
     public String getName() {
-        return "block.infinite_forest." + ID;
+        return "block.infinite_forest." + id;
     }
 
     @Override

@@ -7,12 +7,12 @@ import ru.koshakmine.icstd.type.common.ItemStack;
 
 
 public abstract class Log extends RotatableLog {
-    public Block HEWN;
+    public Block hewn;
 
     public Log(String id, Block hewn) {
         super(id);
 
-        HEWN = hewn;
+        this.hewn = hewn;
 
         cut();
     };
@@ -24,7 +24,7 @@ public abstract class Log extends RotatableLog {
 
             if (IDRegistry.getNameByID(stack.id).contains("axe")) {
 
-                level.setBlock((int)pos.x, (int)pos.y, (int)pos.z, HEWN.getNumId(), level.getBlockData(pos));
+                level.setBlock((int)pos.x, (int)pos.y, (int)pos.z, this.hewn.getNumId(), level.getBlockData(pos));
                 player.setCarriedItem(new ItemStack(stack.id, stack.count, stack.data++, stack.extra));
             };
         });

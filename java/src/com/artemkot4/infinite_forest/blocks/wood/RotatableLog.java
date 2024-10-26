@@ -5,19 +5,19 @@ import ru.koshakmine.icstd.type.CreativeCategory;
 import ru.koshakmine.icstd.type.block.SoundType;
 
 public abstract class RotatableLog extends Block {
-    public String ID;
+    public String id;
 
     public final String textureTop;
     public final String textureSide;
 
     public RotatableLog(String id) {
-        ID = id;
+        this.id = id;
 
         rotateRegistry();
         setRotatable();
 
-        textureTop = ID + "_top";
-        textureSide =  ID + "_side";
+        textureTop = id + "_top";
+        textureSide =  id + "_side";
 
     };
 
@@ -66,12 +66,12 @@ public abstract class RotatableLog extends Block {
 
     @Override
     public String getId() {
-        return ID;
+        return id;
     };
 
     @Override
     public String getName() {
-        return "block.infinite_forest." + ID;
+        return "block.infinite_forest." + id;
     };
 
 

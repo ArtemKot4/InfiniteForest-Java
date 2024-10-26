@@ -1,5 +1,6 @@
 package com.artemkot4.infinite_forest;
 
+import com.artemkot4.infinite_forest.events.ServerPlayerTick;
 import com.zhekasmirnov.apparatus.modloader.LegacyInnerCoreMod;
 import ru.koshakmine.icstd.modloader.Mod;
 import ru.koshakmine.icstd.modloader.ObjectFactory;
@@ -17,6 +18,10 @@ public class InfiniteForest extends Mod {
     @Override
     public void runMod(ObjectFactory objectFactory) {
         TranslationLoader.loadTranslation(getDir()+"lang", "en");
+
         AllBlocks.init();
+        AllItems.init();
+        ServerPlayerTick.init();
+
     }
 }
