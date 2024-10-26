@@ -1,31 +1,24 @@
-package com.artemkot4.infinite_forest.particle.glowworm;
+package com.artemkot4.infinite_forest.particle;
 
 import com.zhekasmirnov.innercore.api.particles.ParticleRegistry;
 import ru.koshakmine.icstd.level.particle.Particle;
 
-public class Glowworm extends Particle {
-
-    public final String id;
-    public final float[] rgba;
-
-    public Glowworm(int r, int g, int b) {
-        this.id = "glowworm_" + r + g + b;
-        this.rgba = new float[]{r / 256, g / 256, b / 256, 1};
-    };
+public class Cloud extends Particle {
+    public static final String id = "cloud";
 
     @Override
     public String getTexture() {
-        return "part_color";
+        return "flame";
     };
 
     @Override
     public String getId() {
         return id;
-    };
+    }
 
     @Override
     public float[] getColor() {
-        return rgba;
+        return new float[]{125/256, 125/256, 125/256, 1};
     };
 
     @Override
@@ -35,24 +28,25 @@ public class Glowworm extends Particle {
 
     @Override
     public int[] getLifetime() {
-        return new int[]{40, 100};
+        return new int[]{30, 40};
     };
 
     @Override
     public int[] getSize() {
-        return new int[]{1, 3};
+        return new int[]{6, 9};
     }
+
 
     @Override
     public void onInit() {
         getParticleType().setAnimator("alpha",
                 new ParticleRegistry.ParticleAnimator(
-                                -1,
-                                0.4f,
-                                0f,
-                                0.4f,
-                                0f)
-                        );
+                        -1,
+                        0.4f,
+                        0f,
+                        0.4f,
+                        0f)
+        );
 
         getParticleType().setAnimator("size",
                 new ParticleRegistry.ParticleAnimator(
@@ -62,7 +56,5 @@ public class Glowworm extends Particle {
                         0.4f,
                         0f)
         );
-
     }
-
 }

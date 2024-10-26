@@ -12,7 +12,8 @@ public class Forest {
             .setHasSkyLight(false);
 
     public static void addLayer() {
-
+     //  dimension.setGenerator(new Dimensions.CustomGenerator("infinite_forest_generator")
+           //    .setTerrainGenerator())
     };
 
     public static void init() {};
