@@ -30,21 +30,6 @@ public class FItem extends Item {
         this(id, new Texture(id, 0), 64);
     };
 
-    @Override
-    public Texture getTexture() {
-        return texture;
-    };
-
-    @Override
-    public String getId() {
-        return id;
-    };
-
-    @Override
-    public String getName() {
-        return "item.infinite_forest." + id;
-    }
-
     public FItem setOnHand(IItemHand lambda) {
          handFunctions.put(this.getNumId(), lambda);
          return this;
@@ -68,5 +53,20 @@ public class FItem extends Item {
     @Override
     public CreativeCategory getCreativeCategory() {
         return category != null ? category : CreativeCategory.TOOLS;
+    };
+
+    @Override
+    public Texture getTexture() {
+        return texture;
+    };
+
+    @Override
+    public String getId() {
+        return id;
+    };
+
+    @Override
+    public String getName() {
+        return "item.infinite_forest." + id;
     }
 }

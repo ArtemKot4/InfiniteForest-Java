@@ -1,5 +1,6 @@
 package com.artemkot4.infinite_forest;
 
+import com.artemkot4.infinite_forest.dimension.Forest;
 import com.artemkot4.infinite_forest.events.ServerPlayerTick;
 import com.zhekasmirnov.apparatus.modloader.LegacyInnerCoreMod;
 import ru.koshakmine.icstd.modloader.Mod;
@@ -22,6 +23,6 @@ public class InfiniteForest extends Mod {
         AllBlocks.init();
         AllItems.init();
         ServerPlayerTick.init();
-
+        Forest.init();
     }
 }

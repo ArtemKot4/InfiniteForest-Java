@@ -13,6 +13,8 @@ public class Forest {
 
     public static void addLayer() {
 
-    }
+    };
+
+    public static void init() {};
 
 }
