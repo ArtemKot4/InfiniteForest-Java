@@ -7,7 +7,7 @@ import ru.koshakmine.icstd.recipes.workbench.PatternData;
 import ru.koshakmine.icstd.recipes.workbench.ShapedRecipe;
 
 public abstract class Bark extends RotatableLog {
-    public Block log;
+    public final Block log;
 
     public Bark(String id, Block log) {
         super(id);

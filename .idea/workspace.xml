@@ -24,15 +24,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/plants/Plant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/plants/Fironia.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
@@ -44,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/curse/Curse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
+            <state relative-caret-position="1458">
               <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -56,24 +47,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/eucalyptus/EucalyptusLog.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/items/TransferCrystal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+            <state relative-caret-position="473">
+              <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
               <folding>
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/Hewn.java">
+        <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/AllBlocks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="90">
+              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/items/OrangeCrystal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/InfiniteForest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -81,39 +92,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/Bark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/Log.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/RotatableLog.java">
+        <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/utils/FItem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/classpath/icstd.jar!/ru/koshakmine/icstd/block/Block.class">
+        <entry file="jar://$PROJECT_DIR$/classpath/icstd.jar!/ru/koshakmine/icstd/item/Item.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3458">
-              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-              <folding>
-                <element signature="e#3172#3173#0" expanded="true" />
-                <element signature="e#3209#3210#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1782">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -146,13 +144,11 @@
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/pink/PinkPlanks.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/TerrainLayerParams.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/TerrainLayer.java" />
-        <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/Bark.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/Hewn.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/Planks.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/FBlock.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/utils/IItemHand.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/utils/FItem.java" />
-        <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/items/TransferCrystal.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/items/BlueCrystal.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/items/OrangeCrystal.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/AllItems.java" />
@@ -186,6 +182,8 @@
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/Log.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/RotatableLog.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/plants/Fironia.java" />
+        <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/Bark.java" />
+        <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/items/TransferCrystal.java" />
       </list>
     </option>
   </component>
@@ -242,6 +240,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="infinite_forest" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="toolchain-infinite-forest-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolchain-infinite-forest-java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="infinite_forest" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
               <item name="plants" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -252,6 +259,36 @@
               <item name="infinite_forest" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
               <item name="wood" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="toolchain-infinite-forest-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolchain-infinite-forest-java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="infinite_forest" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="wood" type="462c0819:PsiDirectoryNode" />
+              <item name="eucalyptus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="toolchain-infinite-forest-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolchain-infinite-forest-java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="infinite_forest" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="wood" type="462c0819:PsiDirectoryNode" />
+              <item name="pink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="toolchain-infinite-forest-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolchain-infinite-forest-java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="infinite_forest" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="wood" type="462c0819:PsiDirectoryNode" />
+              <item name="winter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="toolchain-infinite-forest-java" type="b2602c69:ProjectViewProjectNode" />
@@ -301,6 +338,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="infinite_forest" type="462c0819:PsiDirectoryNode" />
               <item name="particle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="toolchain-infinite-forest-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolchain-infinite-forest-java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="infinite_forest" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -376,43 +421,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/items/BlueCrystal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/items/OrangeCrystal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/items/TransferCrystal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/mod/adaptedscript/AdaptedScriptAPI.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="472" column="19" selection-start-line="472" selection-start-column="19" selection-end-line="472" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/dimensions/AbstractTerrainGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -664,13 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/InfiniteForest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/curse/ICurseSubscriber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -721,33 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/utils/FBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/classpath/icstd.jar!/ru/koshakmine/icstd/block/INeighbourChanged.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/AllBlocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -766,13 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/Bark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -815,6 +786,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/utils/FBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/Bark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/InfiniteForest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/curse/Curse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/AllBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/plants/Fironia.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -825,10 +843,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/curse/Curse.java">
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/items/OrangeCrystal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="108">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/utils/FItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/classpath/icstd.jar!/ru/koshakmine/icstd/item/Item.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1782">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/items/TransferCrystal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

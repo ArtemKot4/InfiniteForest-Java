@@ -2,12 +2,18 @@ package com.artemkot4.infinite_forest.items;
 
 import com.artemkot4.infinite_forest.utils.FItem;
 import com.zhekasmirnov.innercore.api.mod.adaptedscript.AdaptedScriptAPI.Dimensions;
+import ru.koshakmine.icstd.entity.Player;
 import ru.koshakmine.icstd.item.Item;
+import ru.koshakmine.icstd.item.event.IClickable;
+import ru.koshakmine.icstd.type.common.BlockData;
+import ru.koshakmine.icstd.type.common.BlockPosition;
+import ru.koshakmine.icstd.type.common.ItemStack;
 import ru.koshakmine.icstd.type.common.Texture;
 
-public abstract class TransferCrystal extends FItem {
+public abstract class TransferCrystal extends FItem implements IClickable {
 
-    private final int dimension;
+    private final int dimensionFrom;
+    private final int dimensionTo;
 
     public boolean isShouldDespawn() {
         return false;
@@ -25,18 +31,18 @@ public abstract class TransferCrystal extends FItem {
 
         super(id, new Texture(id, 0), 1);
 
-        this.dimension = to;
+        this.dimensionFrom = from;
+        this.dimensionTo = to;
 
-        Item.registerClick(this.getNumId(), (pos, stack, data, player) -> {
+    };
 
-            if(player.getDimension() == from) {
+    @Override
+    public void onClick(BlockPosition blockPosition, ItemStack itemStack, BlockData blockData, Player player) {
 
-                Dimensions.transfer(player.getUid(), to);
-            };
+        if(player.getDimension() == dimensionFrom) {
 
-        });
+            Dimensions.transfer(player.getUid(), dimensionTo);
+        };
+
     }
-
-
-
 }
