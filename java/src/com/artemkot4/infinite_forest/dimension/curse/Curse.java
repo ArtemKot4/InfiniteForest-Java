@@ -27,19 +27,11 @@ public abstract class Curse {
             Forest.setFlag(NetworkSide.LOCAL, "curse", map);
         };
 
-        if(flag instanceof HashMap) {
+        if ((flag instanceof HashMap) && !(flag.get(id) instanceof Boolean)) {
 
-            if (flag.get(id) instanceof Boolean) {
-
-                return;
-
-            } else {
-
-                flag.put(id, true);
-
-               }
-
-        };
+            flag.put(id, true);
+            
+        }
 
     }
 

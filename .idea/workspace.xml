@@ -23,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/curse/Curse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1057">
-              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            <state relative-caret-position="383">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#283#284#0" expanded="true" />
@@ -39,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/dungeon/DungeonBrick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="329">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,8 +200,8 @@
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/events/LevelDisplayed.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/Forest.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/events/ForestTick.java" />
-        <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/curse/Curse.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/dungeon/DungeonBrick.java" />
+        <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/curse/Curse.java" />
       </list>
     </option>
   </component>
@@ -814,20 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/curse/Curse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1057">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#2271#2272#0" expanded="true" />
-            <element signature="e#2304#2305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/utils/FBlock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -865,10 +851,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/dungeon/DungeonBrick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        <state relative-caret-position="329">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/curse/Curse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#2271#2272#0" expanded="true" />
+            <element signature="e#2304#2305#0" expanded="true" />
           </folding>
         </state>
       </provider>

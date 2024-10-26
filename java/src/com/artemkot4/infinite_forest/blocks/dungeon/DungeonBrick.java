@@ -23,7 +23,7 @@ public abstract class DungeonBrick extends FBlock {
             AllCurses.DUNGEON.subscribe(NetworkSide.LOCAL, () -> {
 
                 AdaptedScriptAPI.GameController.stopDestroyBlock((int)pos.x, (int)pos.y, (int)pos.z);
-                
+
                return;
             });
 
