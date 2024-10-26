@@ -7,6 +7,6 @@ import ru.koshakmine.icstd.type.block.BlockID;
 public class PinkLog extends Log {
     
     public PinkLog() {
-        super("pink_log", BlockID.getModId("pink_hewn"));
+        super("pink_log", "pink_hewn");
     }
 }

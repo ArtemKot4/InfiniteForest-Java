@@ -5,6 +5,6 @@ import com.artemkot4.infinite_forest.blocks.wood.Log;
 
 public class WinterLog extends Log {
     public WinterLog() {
-        super("winter_log", AllBlocks.WinterHewn);
+        super("winter_log", "winter_hewn");
     }
 }

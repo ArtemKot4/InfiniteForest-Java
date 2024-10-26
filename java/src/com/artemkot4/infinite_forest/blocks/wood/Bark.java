@@ -5,11 +5,12 @@ import ru.koshakmine.icstd.modloader.Mod;
 import ru.koshakmine.icstd.recipes.workbench.ItemCraft;
 import ru.koshakmine.icstd.recipes.workbench.PatternData;
 import ru.koshakmine.icstd.recipes.workbench.ShapedRecipe;
+import ru.koshakmine.icstd.type.block.BlockID;
 
 public abstract class Bark extends RotatableLog {
-    public final int log;
+    public final String log;
 
-    public Bark(String id, int log) {
+    public Bark(String id, String log) {
         super(id);
 
         this.log = log;
@@ -19,12 +20,12 @@ public abstract class Bark extends RotatableLog {
     @Override
     public void onInit() {
         super.onInit();
-        Mod.getFactory().add(new ShapedRecipe(new ItemCraft(getNumId(),0)).setPattern(new String[]{
-                "aa ",
-                "aa ",
-                "   "
-        }, new PatternData[]{
-                new PatternData('a', log)
-        }));
+//        Mod.getFactory().add(new ShapedRecipe(new ItemCraft(getNumId(),0)).setPattern(new String[]{
+//                "aa ",
+//                "aa ",
+//                "   "
+//        }, new PatternData[]{
+//                new PatternData('a', BlockID.getModId(log))
+//        }));
     }
 }

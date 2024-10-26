@@ -6,6 +6,6 @@ import ru.koshakmine.icstd.type.block.BlockID;
 
 public class WinterPlanks extends Planks {
     public WinterPlanks() {
-        super("winter_planks", BlockID.getModId("winter_log"));
+        super("winter_planks", "winter_log");
     }
 }

@@ -5,15 +5,16 @@ import ru.koshakmine.icstd.block.Block;
 import ru.koshakmine.icstd.entity.Player;
 import ru.koshakmine.icstd.item.event.IClickable;
 import ru.koshakmine.icstd.level.Level;
+import ru.koshakmine.icstd.type.block.BlockID;
 import ru.koshakmine.icstd.type.common.BlockData;
 import ru.koshakmine.icstd.type.common.BlockPosition;
 import ru.koshakmine.icstd.type.common.ItemStack;
 
 
 public abstract class Log extends RotatableLog implements IClickable {
-    public int hewn;
+    public final String hewn;
 
-    public Log(String id, int hewn) {
+    public Log(String id, String hewn) {
         super(id);
 
         this.hewn = hewn;
@@ -26,7 +27,7 @@ public abstract class Log extends RotatableLog implements IClickable {
 
         if (IDRegistry.getNameByID(stack.id).contains("axe")) {
 
-            level.setBlock((int)pos.x, (int)pos.y, (int)pos.z, this.hewn, level.getBlockData(pos));
+            level.setBlock((int)pos.x, (int)pos.y, (int)pos.z, BlockID.getModId(this.hewn), level.getBlockData(pos));
             player.setCarriedItem(new ItemStack(stack.id, stack.count, stack.data++, stack.extra));
         };
     }

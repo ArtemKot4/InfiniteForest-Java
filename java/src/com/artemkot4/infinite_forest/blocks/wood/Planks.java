@@ -6,9 +6,9 @@ import ru.koshakmine.icstd.type.block.SoundType;
 
 public abstract class Planks extends Block {
     public String id;
-    public int log;
+    public String log;
 
-    public Planks(String id, int log) {
+    public Planks(String id, String log) {
         this.id = id;
         this.log = log;
 //        Mod.getFactory().add(new ShapelessRecipe(new ItemCraft(log.getNumId(), 0)).setEntries(new PatternData[]{

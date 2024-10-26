@@ -7,6 +7,6 @@ import ru.koshakmine.icstd.type.block.BlockID;
 public class EucalyptusLog extends Log {
     
     public EucalyptusLog() {
-        super("eucalyptus_log",  BlockID.getModId("eucalyptus_hewn"));
+        super("eucalyptus_log","eucalyptus_hewn");
     }
 }
