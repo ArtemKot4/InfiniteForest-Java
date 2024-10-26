@@ -9,3 +9,4 @@ tsconfig.json
 /.idea
 /.idea
 *.xml
+.idea/workspace.xml
