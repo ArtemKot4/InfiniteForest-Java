@@ -12,7 +12,7 @@
 	},
 	"resources": [
 		{
-			"path": "assets",
+			"path": "assets/",
 			"type": "resource_directory"
 		},
 		{
