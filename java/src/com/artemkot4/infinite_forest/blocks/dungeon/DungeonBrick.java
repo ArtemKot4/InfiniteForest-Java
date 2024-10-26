@@ -2,6 +2,7 @@ package com.artemkot4.infinite_forest.blocks.dungeon;
 
 import com.artemkot4.infinite_forest.AllCurses;
 import com.artemkot4.infinite_forest.utils.FBlock;
+import com.zhekasmirnov.innercore.api.NativeGameController;
 import com.zhekasmirnov.innercore.api.mod.adaptedscript.AdaptedScriptAPI;
 import ru.koshakmine.icstd.event.Event;
 import ru.koshakmine.icstd.network.NetworkSide;
@@ -22,7 +23,7 @@ public abstract class DungeonBrick extends FBlock {
 
             AllCurses.DUNGEON.subscribe(NetworkSide.LOCAL, () -> {
 
-                AdaptedScriptAPI.GameController.stopDestroyBlock((int)pos.x, (int)pos.y, (int)pos.z);
+                NativeGameController.stopDestroyBlock((int)pos.x, (int)pos.y, (int)pos.z);
 
                return;
             });

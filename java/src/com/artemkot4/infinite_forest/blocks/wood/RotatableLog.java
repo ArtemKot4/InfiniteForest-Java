@@ -20,8 +20,6 @@ public abstract class RotatableLog extends Block implements IPlaceBlock {
     public RotatableLog(String id) {
         this.id = id;
 
-        rotateRegistry();
-
         textureTop = id + "_top";
         textureSide =  id + "_side";
 
@@ -51,8 +49,8 @@ public abstract class RotatableLog extends Block implements IPlaceBlock {
         return pos;
     }
 
-
-    public void rotateRegistry() {
+    @Override
+    public void onInit() {
         addVariant(getName(), new String[]{textureSide, textureSide, textureTop, textureTop, textureSide, textureSide});
         addVariant(getName(), new String[]{textureSide, textureSide, textureSide, textureSide, textureTop, textureTop});
     };
