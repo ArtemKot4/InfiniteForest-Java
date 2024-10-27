@@ -11,6 +11,8 @@ import ru.koshakmine.icstd.utils.TranslationLoader;
 
 public class InfiniteForest extends Mod {
     public static String WINDOWS;
+    public static Mod INSTANCE;
+    public static final String DIR = getInstance().getDir();
 
     public InfiniteForest(String dir, LegacyInnerCoreMod mod) {
         super(dir, mod);
@@ -18,8 +20,15 @@ public class InfiniteForest extends Mod {
         WINDOWS = dir + "windows/";
     }
 
+    public static Mod getInstance() {
+        return INSTANCE;
+    };
+
     @Override
     public void runMod(ObjectFactory objectFactory) {
+
+        INSTANCE = this;
+
         TranslationLoader.loadTranslation(getDir()+"lang", "en");
 
         Forest.init();

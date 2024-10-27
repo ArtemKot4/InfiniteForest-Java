@@ -52,7 +52,9 @@ public abstract class Bush extends Plant implements IClickable, IRandomTicking {
 
     @Override
     public void onRandomTick(Position pos, BlockData data, Level level) {
+
            if(Math.random() < getGrowChance() && data.data <= 0) {
+
                  level.setBlock((int)pos.x, (int)pos.y, (int)pos.z, data.id, data.data + 1);
            }
     }
