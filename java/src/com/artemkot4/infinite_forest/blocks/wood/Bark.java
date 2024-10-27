@@ -10,13 +10,13 @@ import ru.koshakmine.icstd.type.block.BlockID;
 public abstract class Bark extends RotatableLog {
     public final String log;
 
-    public Bark(String id, String log) {
+    public Bark(String id) {
         super(id);
 
-        this.log = log;
+        this.log =  (id.split("_")[0] + "_log");
 
-        textureTop = log + "_top";
-        textureSide =  log + "_side";
+        textureTop = this.log + "_top";
+        textureSide =  this.log + "_side";
     };
 
     @Override

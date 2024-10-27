@@ -7,7 +7,7 @@ import ru.koshakmine.icstd.type.block.BlockID;
 public class PinkPlanks extends Planks {
 
     public PinkPlanks() {
-        super("pink_planks", "pink_log");
+        super("pink_planks");
     };
 
 }

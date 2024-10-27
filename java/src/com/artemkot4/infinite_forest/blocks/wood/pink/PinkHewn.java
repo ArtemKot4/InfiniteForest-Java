@@ -7,7 +7,7 @@ import ru.koshakmine.icstd.type.block.BlockID;
 public class PinkHewn extends Hewn {
 
     public PinkHewn() {
-        super("pink_hewn", "pink_log");
+        super("pink_hewn");
     }
 
 }

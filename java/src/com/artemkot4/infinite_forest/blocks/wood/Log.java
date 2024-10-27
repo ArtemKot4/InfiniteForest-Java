@@ -14,10 +14,10 @@ import ru.koshakmine.icstd.type.common.ItemStack;
 public abstract class Log extends RotatableLog implements IClickable {
     public final String hewn;
 
-    public Log(String id, String hewn) {
+    public Log(String id) {
         super(id);
 
-        this.hewn = hewn;
+        this.hewn = (id.split("_")[0] + "_hewn");
     };
 
 

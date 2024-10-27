@@ -8,9 +8,9 @@ public abstract class Planks extends Block {
     public String id;
     public String log;
 
-    public Planks(String id, String log) {
+    public Planks(String id) {
         this.id = id;
-        this.log = log;
+        this.log =  (id.split("_")[0] + "_log");;
 //        Mod.getFactory().add(new ShapelessRecipe(new ItemCraft(log.getNumId(), 0)).setEntries(new PatternData[]{
 //                new PatternData()
 //        }))

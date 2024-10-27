@@ -6,6 +6,6 @@ import ru.koshakmine.icstd.type.block.BlockID;
 
 public class WinterHewn extends Hewn {
     public WinterHewn() {
-        super("winter_hewn", "winter_log");
+        super("winter_hewn");
     }
 }
