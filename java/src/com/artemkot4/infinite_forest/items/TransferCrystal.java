@@ -3,13 +3,13 @@ package com.artemkot4.infinite_forest.items;
 import com.artemkot4.infinite_forest.utils.FItem;
 import com.zhekasmirnov.innercore.api.mod.adaptedscript.AdaptedScriptAPI.Dimensions;
 import ru.koshakmine.icstd.entity.Player;
-import ru.koshakmine.icstd.item.event.IClickable;
+import ru.koshakmine.icstd.item.event.ClickableComponent;
 import ru.koshakmine.icstd.type.common.BlockData;
 import ru.koshakmine.icstd.type.common.BlockPosition;
 import ru.koshakmine.icstd.type.common.ItemStack;
 import ru.koshakmine.icstd.type.common.Texture;
 
-public abstract class TransferCrystal extends FItem implements IClickable {
+public abstract class TransferCrystal extends FItem implements ClickableComponent {
 
     private final int dimensionFrom;
     private final int dimensionTo;

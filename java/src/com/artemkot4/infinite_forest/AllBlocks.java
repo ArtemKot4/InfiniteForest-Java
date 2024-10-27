@@ -1,6 +1,8 @@
 package com.artemkot4.infinite_forest;
 
 import com.artemkot4.infinite_forest.blocks.blockentity.Cauldron;
+import com.artemkot4.infinite_forest.blocks.blockentity.EmptyBottle;
+import com.artemkot4.infinite_forest.blocks.blockentity.FirefliesBottle;
 import com.artemkot4.infinite_forest.blocks.plants.Fironia;
 import com.artemkot4.infinite_forest.blocks.plants.IceFlower;
 import com.artemkot4.infinite_forest.blocks.wood.eucalyptus.EucalyptusBark;
@@ -41,6 +43,8 @@ public class AllBlocks {
     public static final Block WinterPlanks = factory.addBlock(WinterPlanks::new);
 
     public static final Block CAULDRON = factory.addBlock(Cauldron::new);
+    public static final Block EMPTY_BOTTLE = factory.addBlock(EmptyBottle::new);
+    public static final Block FIREFLIES_BOTTLE = factory.addBlock(FirefliesBottle::new);
 
     public static void init() {}
 }

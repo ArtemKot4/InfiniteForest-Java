@@ -1,8 +1,8 @@
 package com.artemkot4.infinite_forest.blocks.plants;
 
-import ru.koshakmine.icstd.block.IRandomTicking;
+import ru.koshakmine.icstd.block.RandomTickingComponent;
 import ru.koshakmine.icstd.entity.Player;
-import ru.koshakmine.icstd.item.event.IClickable;
+import ru.koshakmine.icstd.item.event.ClickableComponent;
 import ru.koshakmine.icstd.level.Level;
 import ru.koshakmine.icstd.type.ItemID;
 import ru.koshakmine.icstd.type.common.BlockData;
@@ -12,7 +12,7 @@ import ru.koshakmine.icstd.type.common.Position;
 
 import java.util.Random;
 
-public abstract class Bush extends Plant implements IClickable, IRandomTicking {
+public abstract class Bush extends Plant implements ClickableComponent, RandomTickingComponent {
 
     public final String berry;
 

@@ -31,6 +31,10 @@ public class BlockModel {
         this(model, new Texture(texture, 0), data);
     }
 
+    public BlockModel(String model) {
+        this(model, new Texture(model.split("/")[model.split("/").length - 1], 0), -1);
+    }
+
     public NativeRenderMesh getRenderMesh() {
         return mesh;
     };

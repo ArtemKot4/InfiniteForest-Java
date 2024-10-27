@@ -1,10 +1,9 @@
 package com.artemkot4.infinite_forest.utils;
 
 import ru.koshakmine.icstd.item.Item;
+import ru.koshakmine.icstd.item.event.OverrideIconComponent;
 import ru.koshakmine.icstd.type.CreativeCategory;
 import ru.koshakmine.icstd.type.common.Texture;
-import ru.koshakmine.icstd.item.event.IOverrideIcon;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -35,7 +34,7 @@ public class FItem extends Item {
          return this;
     };
 
-    public FItem setTooltype(IOverrideIcon lambda) {
+    public FItem setTooltype(OverrideIconComponent lambda) {
         Item.registerOverrideIcon(this.getNumId(), lambda);
         return this;
     };

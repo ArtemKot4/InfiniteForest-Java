@@ -1,9 +1,8 @@
 package com.artemkot4.infinite_forest.blocks.plants;
 
 import com.artemkot4.infinite_forest.utils.FBlock;
-import ru.koshakmine.icstd.block.Block;
-import ru.koshakmine.icstd.block.INeighbourChanged;
-import ru.koshakmine.icstd.block.IPlaceBlock;
+import ru.koshakmine.icstd.block.NeighbourChangeComponent;
+import ru.koshakmine.icstd.block.PlaceComponent;
 import ru.koshakmine.icstd.entity.Player;
 import ru.koshakmine.icstd.level.Level;
 import ru.koshakmine.icstd.type.CreativeCategory;
@@ -19,7 +18,7 @@ import ru.koshakmine.icstd.type.tools.ToolLevel;
 import java.util.ArrayList;
 
 
-public abstract class Plant extends FBlock implements IPlaceBlock, INeighbourChanged {
+public abstract class Plant extends FBlock implements PlaceComponent, NeighbourChangeComponent {
 
   public static ArrayList<Integer> placeList = new ArrayList<>();
 

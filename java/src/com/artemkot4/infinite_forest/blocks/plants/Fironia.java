@@ -3,11 +3,11 @@ package com.artemkot4.infinite_forest.blocks.plants;
 
 import com.zhekasmirnov.innercore.api.constants.ParticleType;
 import com.zhekasmirnov.innercore.api.mod.adaptedscript.AdaptedScriptAPI.Particles;
-import ru.koshakmine.icstd.block.IAnimateTicking;
+import ru.koshakmine.icstd.block.AnimationTickingComponent;
 import ru.koshakmine.icstd.type.common.BlockData;
 import ru.koshakmine.icstd.type.common.Position;
 
-public class Fironia extends Plant implements IAnimateTicking {
+public class Fironia extends Plant implements AnimationTickingComponent {
 
     public Fironia() {
         super("fironia");
@@ -20,7 +20,7 @@ public class Fironia extends Plant implements IAnimateTicking {
     }
 
     @Override
-    public void onAnimateTick(Position pos, BlockData data) {
+    public void onAnimationTick(Position pos, BlockData data) {
         Particles.addParticle(ParticleType.flame, (pos.x + 0.5), (pos.y + 0.8), (pos.z + 0.5),
                 0, 0.05, 0, 0);
     }

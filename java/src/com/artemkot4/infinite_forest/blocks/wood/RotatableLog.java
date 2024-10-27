@@ -1,7 +1,7 @@
 package com.artemkot4.infinite_forest.blocks.wood;
 
 import ru.koshakmine.icstd.block.Block;
-import ru.koshakmine.icstd.block.IPlaceBlock;
+import ru.koshakmine.icstd.block.PlaceComponent;
 import ru.koshakmine.icstd.entity.Player;
 import ru.koshakmine.icstd.level.Level;
 import ru.koshakmine.icstd.type.CreativeCategory;
@@ -11,7 +11,7 @@ import ru.koshakmine.icstd.type.common.BlockPosition;
 import ru.koshakmine.icstd.type.common.ItemStack;
 import ru.koshakmine.icstd.type.common.Position;
 
-public abstract class RotatableLog extends Block implements IPlaceBlock {
+public abstract class RotatableLog extends Block implements PlaceComponent {
     public String id;
 
     public String textureTop;

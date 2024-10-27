@@ -25,6 +25,7 @@ public class InfiniteForest extends Mod {
 
         TranslationLoader.loadTranslation(getDir()+"lang", "en");
 
+        AllBiomes.init();
         Forest.init();
 
         AllBlocks.init();
