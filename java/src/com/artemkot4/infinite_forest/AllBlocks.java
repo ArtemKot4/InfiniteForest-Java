@@ -1,5 +1,6 @@
 package com.artemkot4.infinite_forest;
 
+import com.artemkot4.infinite_forest.blocks.blockentity.Cauldron;
 import com.artemkot4.infinite_forest.blocks.plants.Fironia;
 import com.artemkot4.infinite_forest.blocks.plants.IceFlower;
 import com.artemkot4.infinite_forest.blocks.wood.eucalyptus.EucalyptusBark;
@@ -38,6 +39,8 @@ public class AllBlocks {
     public static final Block WinterLog = factory.addBlock(WinterLog::new);
     public static final Block WinterHewn = factory.addBlock(WinterHewn::new);
     public static final Block WinterPlanks = factory.addBlock(WinterPlanks::new);
+
+    public static final Block CAULDRON = factory.addBlock(Cauldron::new);
 
     public static void init() {}
 }

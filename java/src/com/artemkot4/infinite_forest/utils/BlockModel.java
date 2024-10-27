@@ -6,17 +6,30 @@ import ru.koshakmine.icstd.type.common.Texture;
 
 public class BlockModel {
     protected final NativeRenderMesh mesh;
-    protected final byte data;
+    protected final int data;
 
-    public BlockModel(String model, Texture texture, byte data) {
+    public BlockModel(String model, Texture texture, int data) {
 
          this.mesh = new NativeRenderMesh();
 
          mesh.importFromFile(InfiniteForest.DIR + "/resources/assets/models/" + model + ".obj","obj", null);
          mesh.setBlockTexture(texture.texture, texture.meta);
+         mesh.translate(0.5f, 0f, 0.5f);
 
          this.data = data;
     };
+
+    public BlockModel(String model, Texture texture) {
+        this(model, texture, -1);
+    };
+
+    public BlockModel(String model, String texture) {
+        this(model, new Texture(texture, 0), -1);
+    };
+
+    public BlockModel(String model, String texture, int data) {
+        this(model, new Texture(texture, 0), data);
+    }
 
     public NativeRenderMesh getRenderMesh() {
         return mesh;
@@ -37,7 +50,7 @@ public class BlockModel {
         return this;
     };
 
-    public byte getBlockData() {
+    public int getBlockData() {
         return data;
     }
 

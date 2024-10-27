@@ -16,6 +16,11 @@ public class FBlock extends Block {
           this.textures = textures;
     };
 
+    public FBlock(String id, String texture) {
+        this.id = id;
+        this.textures = new String[]{texture};
+    };
+
     public FBlock(String id) {
         this(id, new String[]{id});
     };
@@ -61,8 +66,9 @@ public class FBlock extends Block {
         if(this instanceof IBlockModeled) {
 
             final BlockModel model = ((IBlockModeled) this).getBlockModel();
+
             setModel(model);
-            
+
         }
     }
 }
