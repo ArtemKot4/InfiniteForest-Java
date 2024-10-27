@@ -22,7 +22,7 @@ public abstract class Bottle extends FBlock implements IBlockModeled, NeighbourC
 
     @Override
     public BlockModel getBlockModel() {
-        return new BlockModel("block/bottle");
+        return new BlockModel("block/bottle", "forest_bottle");
     };
 
     @Override
