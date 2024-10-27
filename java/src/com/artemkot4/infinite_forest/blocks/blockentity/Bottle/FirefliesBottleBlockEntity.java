@@ -1,4 +1,4 @@
-package com.artemkot4.infinite_forest.blocks.blockentity;
+package com.artemkot4.infinite_forest.blocks.blockentity.Bottle;
 
 import ru.koshakmine.icstd.block.blockentity.BlockEntity;
 import ru.koshakmine.icstd.level.Level;
