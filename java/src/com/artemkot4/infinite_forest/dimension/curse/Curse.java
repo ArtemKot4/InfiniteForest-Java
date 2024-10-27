@@ -35,7 +35,7 @@ public abstract class Curse {
 
     }
 
-    public boolean hasWorld(NetworkSide side) {
+    public boolean hasWorld(NetworkSide side) throws NullPointerException {
         Map<String, Boolean> flag = Forest.getFlag(side, "curse");
 
         if(flag == null || flag.get(id) == null) {
@@ -57,7 +57,7 @@ public abstract class Curse {
      };
 
 
-    public void destroy(NetworkSide side){
+    public void destroy(NetworkSide side) throws NullPointerException {
         Map<String, Boolean> flag = Forest.getFlag(side, "curse");
 
         if(flag == null || flag.get(id) == null) {

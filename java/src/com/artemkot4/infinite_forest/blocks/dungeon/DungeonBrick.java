@@ -4,7 +4,6 @@ import com.artemkot4.infinite_forest.AllCurses;
 import com.artemkot4.infinite_forest.utils.FBlock;
 import com.zhekasmirnov.innercore.api.NativeGameController;
 import com.zhekasmirnov.innercore.api.constants.GameMode;
-import com.zhekasmirnov.innercore.api.mod.adaptedscript.AdaptedScriptAPI;
 import ru.koshakmine.icstd.entity.Player;
 import ru.koshakmine.icstd.event.Event;
 import ru.koshakmine.icstd.network.NetworkSide;
