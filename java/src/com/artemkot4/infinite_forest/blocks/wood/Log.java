@@ -23,12 +23,13 @@ public abstract class Log extends RotatableLog implements IClickable {
 
     @Override
     public void onClick(BlockPosition pos, ItemStack stack, BlockData data, Player player) {
-        Level level = Level.getForActor(player.getUid());
+        Level level = player.getRegion();
 
-        player.message(hewn + " -> " + BlockID.getModId(this.hewn));
+        player.message("stack id -> " + stack.id);
+        player.message(hewn + " -> " + BlockID.getModId(this.hewn) );
 
 
-        if (((String)IDRegistry.getNameByID(stack.id)).contains("axe")) {
+        if (((String)IDRegistry.getStringIdForItemId(stack.id)).contains("axe")) {
 
             level.setBlock((int)pos.x, (int)pos.y, (int)pos.z, BlockID.getModId(this.hewn), level.getBlockData(pos));
             player.setCarriedItem(new ItemStack(stack.id, stack.count, stack.data++, stack.extra));
