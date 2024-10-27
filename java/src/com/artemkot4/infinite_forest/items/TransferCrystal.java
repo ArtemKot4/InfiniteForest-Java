@@ -37,7 +37,7 @@ public abstract class TransferCrystal extends FItem implements IClickable {
 
     @Override
     public void onClick(BlockPosition blockPosition, ItemStack itemStack, BlockData blockData, Player player) {
-
+        player.getRegion().message("From -> " + dimensionFrom + " | to -> " + dimensionTo);
         if(player.getDimension() == dimensionFrom) {
 
             Dimensions.transfer(player.getUid(), dimensionTo);

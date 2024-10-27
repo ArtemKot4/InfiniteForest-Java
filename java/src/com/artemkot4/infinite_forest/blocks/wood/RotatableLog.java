@@ -14,8 +14,8 @@ import ru.koshakmine.icstd.type.common.Position;
 public abstract class RotatableLog extends Block implements IPlaceBlock {
     public String id;
 
-    public final String textureTop;
-    public final String textureSide;
+    public String textureTop;
+    public String textureSide;
 
     public RotatableLog(String id) {
         this.id = id;

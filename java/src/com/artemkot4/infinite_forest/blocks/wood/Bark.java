@@ -15,6 +15,8 @@ public abstract class Bark extends RotatableLog {
 
         this.log = log;
 
+        textureTop = log + "_top";
+        textureSide =  log + "_side";
     };
 
     @Override

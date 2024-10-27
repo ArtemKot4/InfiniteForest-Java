@@ -25,7 +25,7 @@ public abstract class Log extends RotatableLog implements IClickable {
     public void onClick(BlockPosition pos, ItemStack stack, BlockData data, Player player) {
         Level level = Level.getForActor(player.getUid());
 
-        if (IDRegistry.getNameByID(stack.id).contains("axe")) {
+        if (((String)IDRegistry.getNameByID(stack.id)).contains("axe")) {
 
             level.setBlock((int)pos.x, (int)pos.y, (int)pos.z, BlockID.getModId(this.hewn), level.getBlockData(pos));
             player.setCarriedItem(new ItemStack(stack.id, stack.count, stack.data++, stack.extra));

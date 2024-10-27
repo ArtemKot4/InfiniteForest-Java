@@ -2,13 +2,12 @@ package com.artemkot4.infinite_forest.utils;
 
 import com.zhekasmirnov.innercore.api.mod.adaptedscript.AdaptedScriptAPI.RenderMesh;
 import ru.koshakmine.icstd.block.Block;
-import ru.koshakmine.icstd.modloader.Mod;
 import ru.koshakmine.icstd.type.CreativeCategory;
 
 public class FBlock extends Block {
-    private final String id;
-    private final String[] textures;
-    private CreativeCategory category;
+    protected final String id;
+    protected final String[] textures;
+    protected CreativeCategory category;
 
     public FBlock(String id, String[] textures) {
           this.id = id;
@@ -46,6 +45,7 @@ public class FBlock extends Block {
 
     public void setModel() {
         RenderMesh mesh = new RenderMesh();
+        //Mod.get
         //mesh.importFromFile(dir? + "/resources/assets/models/" + obj.model + ".obj");
     }
 }

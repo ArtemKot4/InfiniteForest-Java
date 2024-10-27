@@ -15,7 +15,7 @@ public class ServerPlayerTick {
 
                 if(FItem.handFunctions.containsKey(stack.id)) {
 
-                    FItem.handFunctions.get(stack.id).init(player, stack);
+                    FItem.handFunctions.get(stack.id).onHand(player, stack);
 
                 }
             }

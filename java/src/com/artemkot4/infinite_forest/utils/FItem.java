@@ -69,4 +69,12 @@ public class FItem extends Item {
     public String getName() {
         return "item.infinite_forest." + id;
     }
+
+    @Override
+    public void onInit() {
+          if(this instanceof IItemHand) {
+              handFunctions.put(getNumId(), (IItemHand)this);
+          }
+
+    }
 }
