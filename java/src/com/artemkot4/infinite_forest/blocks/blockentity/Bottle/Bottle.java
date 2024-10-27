@@ -4,6 +4,7 @@ import com.artemkot4.infinite_forest.dimension.biome.ForestBiome;
 import com.artemkot4.infinite_forest.utils.BlockModel;
 import com.artemkot4.infinite_forest.utils.EBiomeState;
 import com.artemkot4.infinite_forest.utils.FBlock;
+import com.artemkot4.infinite_forest.utils.IBlockModelSetter;
 import com.artemkot4.infinite_forest.utils.IBlockModeled;
 import com.zhekasmirnov.innercore.api.NativeBlock;
 import ru.koshakmine.icstd.block.NeighbourChangeComponent;
@@ -14,7 +15,7 @@ import ru.koshakmine.icstd.type.block.SoundType;
 import ru.koshakmine.icstd.type.common.BlockData;
 import ru.koshakmine.icstd.type.common.Position;
 
-public abstract class Bottle extends FBlock implements IBlockModeled, NeighbourChangeComponent, RandomTickingComponent {
+public abstract class Bottle extends FBlock implements IBlockModelSetter, NeighbourChangeComponent, RandomTickingComponent {
 
     public Bottle(String id) {
         super(id, "glass");

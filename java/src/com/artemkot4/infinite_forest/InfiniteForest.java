@@ -25,12 +25,14 @@ public class InfiniteForest extends Mod {
 
         TranslationLoader.loadTranslation(getDir()+"lang", "en");
 
+        AllParticles.init();
+
         AllBiomes.init();
         Forest.init();
 
-        AllBlocks.init();
         AllItems.init();
-        AllParticles.init();
+        AllBlocks.init();
+
         AllCurses.init();
 
         LevelDisplayed.init();

@@ -3,13 +3,14 @@ package com.artemkot4.infinite_forest.utils;
 import com.zhekasmirnov.innercore.api.NativeBlockModel;
 import com.zhekasmirnov.innercore.api.NativeBlockRenderer;
 import com.zhekasmirnov.innercore.api.NativeICRender;
+import com.zhekasmirnov.innercore.api.NativeItem;
 import ru.koshakmine.icstd.block.Block;
 import ru.koshakmine.icstd.type.CreativeCategory;
 
 public class FBlock extends Block {
     protected final String id;
     protected final String[] textures;
-    protected CreativeCategory category;
+    protected CreativeCategory category = CreativeCategory.NONE;
 
     public FBlock(String id, String[] textures) {
           this.id = id;
@@ -45,11 +46,6 @@ public class FBlock extends Block {
         return this;
     }
 
-    @Override
-    public CreativeCategory getCreativeCategory() {
-        return category != null ? category : CreativeCategory.MATERIAL;
-    };
-
     public FBlock setModel(BlockModel model) {
 
         final NativeICRender.Model render = new NativeICRender.Model();
@@ -63,11 +59,18 @@ public class FBlock extends Block {
     @Override
     public void onInit() {
 
-        if(this instanceof IBlockModeled) {
+        if(this instanceof IBlockModelSetter) {
 
-            final BlockModel model = ((IBlockModeled) this).getBlockModel();
+            final BlockModel model = ((IBlockModelSetter) this).getBlockModel();
 
             setModel(model);
+
+        };
+
+        if (category != null) {
+
+            NativeItem.addToCreative(this.getNumId(), 1, 0, (Object)null);
+            NativeItem.setCategoryForId(this.getNumId(), category.ordinal());
 
         }
     }

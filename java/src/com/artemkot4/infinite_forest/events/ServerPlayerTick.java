@@ -1,6 +1,7 @@
 package com.artemkot4.infinite_forest.events;
 
 import com.artemkot4.infinite_forest.utils.FItem;
+import com.artemkot4.infinite_forest.utils.HandItemComponent;
 import ru.koshakmine.icstd.event.Event;
 import ru.koshakmine.icstd.level.Level;
 import ru.koshakmine.icstd.type.common.ItemStack;
@@ -11,11 +12,22 @@ public class ServerPlayerTick {
 
             if(player.getRegion().getTime() % 8 == 0) {
 
-                ItemStack stack = player.getInventorySlot(player.getSelectedSlot());
+                ItemStack stackRight = player.getInventorySlot(player.getSelectedSlot());
 
-                if(FItem.handFunctions.containsKey(stack.id)) {
+                ItemStack stackLeft = player.getOffhandItem();
 
-                    FItem.handFunctions.get(stack.id).onHand(player, stack);
+                HandItemComponent rightAttempt = FItem.handFunctions.get(stackRight.id);
+                HandItemComponent leftAttempt = FItem.handFunctions.get(stackLeft.id);
+
+                if(rightAttempt != null) {
+
+                    rightAttempt.onHand(player, stackRight);
+
+                };
+
+                if(leftAttempt != null) {
+
+                    leftAttempt.onHand(player, stackLeft);
 
                 }
             }

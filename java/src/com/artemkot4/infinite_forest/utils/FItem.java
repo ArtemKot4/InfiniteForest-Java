@@ -1,5 +1,6 @@
 package com.artemkot4.infinite_forest.utils;
 
+import com.zhekasmirnov.innercore.api.NativeItem;
 import ru.koshakmine.icstd.item.Item;
 import ru.koshakmine.icstd.item.event.OverrideIconComponent;
 import ru.koshakmine.icstd.type.CreativeCategory;
@@ -8,12 +9,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class FItem extends Item {
-    public static Map<Integer, IItemHand> handFunctions = new HashMap<>();
+    public static Map<Integer, HandItemComponent> handFunctions = new HashMap<>();
 
     private final String id;
     private final Texture texture;
     private final int stack;
-    private CreativeCategory category;
+    private CreativeCategory category = CreativeCategory.NONE;
 
     public FItem(String id, Texture texture, int stack) {
         this.id = id;
@@ -29,7 +30,7 @@ public class FItem extends Item {
         this(id, new Texture(id, 0), 64);
     };
 
-    public FItem setOnHand(IItemHand lambda) {
+    public FItem setOnHand(HandItemComponent lambda) {
          handFunctions.put(this.getNumId(), lambda);
          return this;
     };
@@ -49,10 +50,6 @@ public class FItem extends Item {
         return this;
     }
 
-    @Override
-    public CreativeCategory getCreativeCategory() {
-        return category != null ? category : CreativeCategory.TOOLS;
-    };
 
     @Override
     public Texture getTexture() {
@@ -71,8 +68,15 @@ public class FItem extends Item {
 
     @Override
     public void onInit() {
-          if(this instanceof IItemHand) {
-              handFunctions.put(getNumId(), (IItemHand)this);
+          if(this instanceof HandItemComponent) {
+              handFunctions.put(getNumId(), (HandItemComponent) this);
+
+          };
+
+          if (category != null) {
+              NativeItem.addToCreative(getNumId(), 1, 0, (Object)null);
+
+              getItem().setCreativeCategory(category.ordinal());
           }
 
     }

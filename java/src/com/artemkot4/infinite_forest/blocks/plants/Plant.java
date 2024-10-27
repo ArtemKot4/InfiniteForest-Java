@@ -22,9 +22,13 @@ public abstract class Plant extends FBlock implements PlaceComponent, NeighbourC
 
   public static ArrayList<Integer> placeList = new ArrayList<>();
 
-  public Plant(String id) {
-      super(id);
+  public Plant(String id, String texture) {
+      super(id, texture);
       this.setCreativeCategory(CreativeCategory.NATURE);
+  };
+
+  public Plant(String id) {
+      this(id, id);
   }
 
     @Override
@@ -46,7 +50,7 @@ public abstract class Plant extends FBlock implements PlaceComponent, NeighbourC
         }
     }
 
-    private boolean isPlaceBlockAt(float x, float y, float z, Level level) {
+    protected boolean isPlaceBlockAt(float x, float y, float z, Level level) {
         return placeList.contains(level.getBlockId((int)x, (int)y, (int)z));
     };
 
