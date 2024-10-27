@@ -1,5 +1,6 @@
 package com.artemkot4.infinite_forest.blocks.plants;
 
+import ru.koshakmine.icstd.block.IRandomTicking;
 import ru.koshakmine.icstd.entity.Player;
 import ru.koshakmine.icstd.item.event.IClickable;
 import ru.koshakmine.icstd.level.Level;
@@ -7,23 +8,22 @@ import ru.koshakmine.icstd.type.ItemID;
 import ru.koshakmine.icstd.type.common.BlockData;
 import ru.koshakmine.icstd.type.common.BlockPosition;
 import ru.koshakmine.icstd.type.common.ItemStack;
+import ru.koshakmine.icstd.type.common.Position;
 
 import java.util.Random;
 
-public abstract class Bush extends Plant implements IClickable {
+public abstract class Bush extends Plant implements IClickable, IRandomTicking {
 
     public final String berry;
-    public final int count;
 
-    public Bush(String id, String berry, int count) {
-        super(id);
-        this.berry = berry;
-        this.count = count;
-    };
+    abstract int getCount();
+    abstract int getGrowChance();
 
     public Bush(String id, String berry) {
-        this(id, berry, 3);
+        super(id);
+        this.berry = berry;
     };
+
 
     @Override
     public void onInit() {
@@ -42,11 +42,18 @@ public abstract class Bush extends Plant implements IClickable {
           level.spawnDroppedItem(
                   pos,
                   new ItemStack(ItemID.getModId(berry),
-                  new Random().nextInt(2) + 1,
+                  new Random().nextInt(getCount()) + 1,
                   0)
           );
 
         };
 
+    };
+
+    @Override
+    public void onRandomTick(Position pos, BlockData data, Level level) {
+           if(Math.random() < getGrowChance() && data.data <= 0) {
+                 level.setBlock((int)pos.x, (int)pos.y, (int)pos.z, data.id, data.data + 1);
+           }
     }
 }
