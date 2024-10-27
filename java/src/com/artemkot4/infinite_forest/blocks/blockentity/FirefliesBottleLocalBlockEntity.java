@@ -1,7 +1,6 @@
 package com.artemkot4.infinite_forest.blocks.blockentity;
 
 import com.zhekasmirnov.apparatus.multiplayer.util.entity.NetworkEntity;
-import com.zhekasmirnov.innercore.api.mod.ui.window.IWindow;
 import org.json.JSONException;
 import org.json.JSONObject;
 import ru.koshakmine.icstd.block.blockentity.BlockEntityLocal;
@@ -16,7 +15,7 @@ public class FirefliesBottleLocalBlockEntity extends BlockEntityLocal implements
 
     @Override
     public void onTick() {
-     
+
     }
 
 }
