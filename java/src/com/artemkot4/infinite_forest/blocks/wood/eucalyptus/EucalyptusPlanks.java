@@ -7,7 +7,7 @@ import ru.koshakmine.icstd.type.block.BlockID;
 public class EucalyptusPlanks extends Planks {
 
     public EucalyptusPlanks() {
-        super("eucalyptus_planks", "eucalyptus_log");
+        super("eucalyptus_planks");
     };
 
 
