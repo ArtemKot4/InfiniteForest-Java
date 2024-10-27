@@ -1,6 +1,4 @@
-package com.artemkot4.infinite_forest.blocks.blockentity.Bottle;
-
-import com.artemkot4.infinite_forest.blocks.blockentity.Bottle.Bottle;
+package com.artemkot4.infinite_forest.blocks.blockentity.bottle;
 
 public class EmptyBottle extends Bottle {
     public EmptyBottle() {

@@ -1,4 +1,4 @@
-package com.artemkot4.infinite_forest.blocks.blockentity.Bottle;
+package com.artemkot4.infinite_forest.blocks.blockentity.bottle;
 
 import com.zhekasmirnov.apparatus.multiplayer.util.entity.NetworkEntity;
 import org.json.JSONException;

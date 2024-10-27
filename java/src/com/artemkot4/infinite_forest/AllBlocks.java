@@ -1,8 +1,8 @@
 package com.artemkot4.infinite_forest;
 
 import com.artemkot4.infinite_forest.blocks.blockentity.Cauldron;
-import com.artemkot4.infinite_forest.blocks.blockentity.Bottle.EmptyBottle;
-import com.artemkot4.infinite_forest.blocks.blockentity.Bottle.FirefliesBottle;
+import com.artemkot4.infinite_forest.blocks.blockentity.bottle.EmptyBottle;
+import com.artemkot4.infinite_forest.blocks.blockentity.bottle.FirefliesBottle;
 import com.artemkot4.infinite_forest.blocks.plants.Fironia;
 import com.artemkot4.infinite_forest.blocks.plants.IceFlower;
 import com.artemkot4.infinite_forest.blocks.wood.eucalyptus.EucalyptusBark;

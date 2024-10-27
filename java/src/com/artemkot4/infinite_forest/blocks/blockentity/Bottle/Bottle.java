@@ -1,4 +1,4 @@
-package com.artemkot4.infinite_forest.blocks.blockentity.Bottle;
+package com.artemkot4.infinite_forest.blocks.blockentity.bottle;
 
 import com.artemkot4.infinite_forest.dimension.biome.ForestBiome;
 import com.artemkot4.infinite_forest.utils.BlockModel;
