@@ -89,8 +89,6 @@ public class SignAnimation {
             this.signList = signList;
         }
 
-        ;
-
         @Override
         public void run() {
 
@@ -171,7 +169,7 @@ public class SignAnimation {
 
                 open();
 
-                new Thread(new SignThread(signList)).run();
+                new Thread(new SignThread(signList)).start();
             }
 
         }
