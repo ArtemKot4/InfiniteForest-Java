@@ -1,18 +1,15 @@
 package com.artemkot4.infinite_forest.blocks.plants;
 
-import com.artemkot4.infinite_forest.utils.FBlock;
 import ru.koshakmine.icstd.block.RandomTickingComponent;
 import ru.koshakmine.icstd.entity.Player;
 import ru.koshakmine.icstd.item.Item;
 import ru.koshakmine.icstd.item.event.ClickableComponent;
 import ru.koshakmine.icstd.level.Level;
-import ru.koshakmine.icstd.type.CreativeCategory;
 import ru.koshakmine.icstd.type.ItemID;
 import ru.koshakmine.icstd.type.common.*;
 
 import java.util.Arrays;
 import java.util.Random;
-import java.util.stream.Stream;
 
 public abstract class Bush extends Plant implements ClickableComponent, RandomTickingComponent {
 
