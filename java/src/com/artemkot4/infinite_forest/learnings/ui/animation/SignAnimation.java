@@ -67,7 +67,7 @@ public class SignAnimation {
 
     protected static void open() {
        setOffset(WIDTH_LOCATION, HEIGHT_LOCATION);
-       changeFrameData(0);
+       changeFrameData(0, IMAGE_SCALE);
        UI.open();
     };
 
@@ -164,15 +164,12 @@ public class SignAnimation {
             }
         }
 
-        ;
-    }
+    };
+
         public static void init(String[] signList) {
             if (signList != null && !UI.isOpened()) {
 
-                setOffset(WIDTH_LOCATION, HEIGHT_LOCATION);
-                changeFrameData(0, IMAGE_SCALE);
-
-                UI.open();
+                open();
 
                 new Thread(new SignThread(signList)).run();
             }
