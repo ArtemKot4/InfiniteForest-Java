@@ -15,7 +15,6 @@ public class AllItems {
     public static Item ORANGE_CRYSTAL = factory.addItem(OrangeCrystal::new);
 
     public static Item BLUE_BERRY_CRYSTAL = factory.addItem(() -> new FItem("blue_berry_crystal")
-          //  .setCreativeCategory(CreativeCategory.NATURE)
     );
 
     public static void init() {};

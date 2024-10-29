@@ -1,7 +1,6 @@
 package com.artemkot4.infinite_forest.events.starfall;
 
 import com.zhekasmirnov.innercore.api.NativeRenderMesh;
-import com.zhekasmirnov.innercore.api.NativeRenderer;
 import ru.koshakmine.icstd.entity.Player;
 import ru.koshakmine.icstd.event.Event;
 import ru.koshakmine.icstd.render.animation.AnimationBase;
@@ -38,7 +37,6 @@ public class Animator {
      this.animation.setIgnoreBlocklight(true);
     };
 
-    private double len = 0d;
     private int timer = 0;
 
     public void init() {
@@ -46,10 +44,8 @@ public class Animator {
      this.animation.loadCustom((animation) -> {
          Position pos = this.animation.getPosition();
 
-         this.animation.getTransform().lock().translate(pos.x, -len, pos.z);
+         this.animation.getTransform().lock().translate(pos.x, -0.2, pos.z);
          this.animation.updateRender();
-
-         len+=0.00001;
 
          timer++;
 
@@ -68,9 +64,18 @@ public class Animator {
             if(stack.id == ItemID.STICK) {
 
                 new Animator(player).init();
+                player.message("Анимация создана!");
+            };
+
+            if(stack.id == ItemID.DIAMOND) {
+              AnimationBase test = new AnimationBase<>(pos.x, pos.y + 3, pos.z);
+              test.setMesh(new MeshGenerator().getMesh(), "terrain-atlas/star.png");
+              test.load();
             }
 
         });
     };
 
+
+    public static void init2() {} //TODO: DELETE IN FUTURE
 }

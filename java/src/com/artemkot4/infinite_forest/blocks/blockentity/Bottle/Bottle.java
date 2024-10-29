@@ -5,7 +5,6 @@ import com.artemkot4.infinite_forest.utils.BlockModel;
 import com.artemkot4.infinite_forest.utils.EBiomeState;
 import com.artemkot4.infinite_forest.utils.FBlock;
 import com.artemkot4.infinite_forest.utils.IBlockModelSetter;
-import com.artemkot4.infinite_forest.utils.IBlockModeled;
 import com.zhekasmirnov.innercore.api.NativeBlock;
 import ru.koshakmine.icstd.block.NeighbourChangeComponent;
 import ru.koshakmine.icstd.block.RandomTickingComponent;

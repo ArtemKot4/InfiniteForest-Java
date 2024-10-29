@@ -66,6 +66,7 @@ public class MeshGenerator {
         };
 
         return empty;
-    }
+    };
+
 
 }
