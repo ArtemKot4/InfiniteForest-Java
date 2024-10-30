@@ -35,55 +35,26 @@ public class Animator {
 
     private int timer = 0;
 
-    public Position definePosition(StarObjectGenerator star) {
-
-        int multiplier = star.size * 10;
-
-        float x = position.x +
-                ((star.side.ordinal() >= 2) ?
-                        ((star.side == EStarSide.BEHIND ? -multiplier : multiplier)) :
-                        ThreadLocalRandom.current().nextInt(-10, 10));
-
-        float y = ThreadLocalRandom.current().nextInt(15, 60);
-
-        float z = position.z +
-                ((star.side.ordinal() < 2) ?
-                        ((star.side == EStarSide.LEFT ? -multiplier : multiplier)) :
-                        ThreadLocalRandom.current().nextInt(-10, 10));
-
-      return new Position(x, y, z);
-
-    };
-
     public void init() {
 
         ArrayList<AnimationBase> animations = new ArrayList<>();
 
-        starList.forEach((element) -> {
+        for(StarObjectGenerator star : starList.toArray(new StarObjectGenerator[0])) {
+            AnimationBase animation = new AnimationBase(position.x - ThreadLocalRandom.current().nextInt(5, 30),
+                    position.y + ThreadLocalRandom.current().nextInt(15,  60),
+                    position.z + ThreadLocalRandom.current().nextInt(45, 80));
 
-            Position resultPosition = definePosition(element);
+            animation.setMesh(star.getMesh(), "terrain-atlas/star.png");
 
-            AnimationBase animation = new AnimationBase(resultPosition.x, resultPosition.y, resultPosition.z);
-            animation.setMesh(element.getMesh(), "terrain-atlas/star.png");
+            animation.load();
 
-            animation.loadCustom((arg) -> {
-
-               timer+=0.005;
-
-               animation.getTransform().lock().translate(0d, -((double)(element.speed)), 0d).unlock();
-
-               if(timer >= 500) {
-
-                   animation.destroy();
-                   return;
-               };
-
-            });
-        });
+        }
 
     };
 
     static {
+
+
     //TODO: debug here
         Event.onItemUse((pos, stack, data, player) -> {
 
