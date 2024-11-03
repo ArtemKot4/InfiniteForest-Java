@@ -1,5 +1,6 @@
 package com.artemkot4.infinite_forest.events.starfall;
 
+import com.artemkot4.infinite_forest.utils.MathHelper;
 import ru.koshakmine.icstd.entity.Player;
 import ru.koshakmine.icstd.event.Event;
 import ru.koshakmine.icstd.render.animation.AnimationBase;
@@ -43,6 +44,8 @@ public class Animator {
             AnimationBase animation = new AnimationBase(position.x - ThreadLocalRandom.current().nextInt(5, 30),
                     position.y + ThreadLocalRandom.current().nextInt(15,  60),
                     position.z + ThreadLocalRandom.current().nextInt(45, 80));
+
+            animation.getTransform().translate(-(MathHelper.gradus90/4), 0, 0);
 
             animation.setMesh(star.getMesh(), "terrain-atlas/star.png");
 

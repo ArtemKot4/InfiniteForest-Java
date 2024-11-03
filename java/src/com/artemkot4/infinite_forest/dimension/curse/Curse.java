@@ -18,15 +18,6 @@ public abstract class Curse {
     public void init() {
        Map<String, Boolean> flag = Forest.getFlag(NetworkSide.LOCAL, "curse");
 
-        if(flag == null) {
-
-            Map<String, Boolean> map = new HashMap<>();
-
-              map.put(id, true);
-
-            Forest.setFlag(NetworkSide.LOCAL, "curse", map);
-        };
-
         if ((flag instanceof HashMap) && !(flag.get(id) instanceof Boolean)) {
 
             flag.put(id, true);
@@ -60,7 +51,7 @@ public abstract class Curse {
     public void destroy(NetworkSide side) throws NullPointerException {
         Map<String, Boolean> flag = Forest.getFlag(side, "curse");
 
-        if(flag == null || flag.get(id) == null) {
+        if(flag.get(id) == null) {
 
             throw new NullPointerException("Destroy: Key does not exists");
 
