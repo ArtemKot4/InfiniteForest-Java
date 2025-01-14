@@ -1,10 +1,9 @@
 package com.artemkot4.infinite_forest.blocks.blockentity.bottle;
 
-import com.artemkot4.infinite_forest.dimension.biome.ForestBiome;
 import com.artemkot4.infinite_forest.utils.BlockModel;
-import com.artemkot4.infinite_forest.utils.EBiomeState;
+import com.artemkot4.infinite_forest.dimension.biome.;
 import com.artemkot4.infinite_forest.utils.FBlock;
-import com.artemkot4.infinite_forest.utils.IBlockModelSetter;
+import com.artemkot4.infinite_forest.utils.IBlockModel;
 import com.zhekasmirnov.innercore.api.NativeBlock;
 import ru.koshakmine.icstd.block.NeighbourChangeComponent;
 import ru.koshakmine.icstd.block.RandomTickingComponent;
@@ -14,7 +13,7 @@ import ru.koshakmine.icstd.type.block.SoundType;
 import ru.koshakmine.icstd.type.common.BlockData;
 import ru.koshakmine.icstd.type.common.Position;
 
-public abstract class Bottle extends FBlock implements IBlockModelSetter, NeighbourChangeComponent, RandomTickingComponent {
+public abstract class Bottle extends FBlock implements IBlockModel, NeighbourChangeComponent, RandomTickingComponent {
 
     public Bottle(String id) {
         super(id, "glass");
@@ -45,7 +44,7 @@ public abstract class Bottle extends FBlock implements IBlockModelSetter, Neighb
 
     @Override
     public void onRandomTick(Position position, BlockData blockData, Level level) {
-        EBiomeState state = ForestBiome.getState(position, level);
+        EForestState state = ForestBiome.getState(position, level);
 
         if(state != EBiomeState.BALANCE) {
 

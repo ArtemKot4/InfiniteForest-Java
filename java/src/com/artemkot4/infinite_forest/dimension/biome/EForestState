@@ -1,0 +1,7 @@
+package com.artemkot4.infinite_forest.dimension.biome;
+
+public enum EForestState {
+    COLD,
+    FIRE,
+    BALANCE
+}

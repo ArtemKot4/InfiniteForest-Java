@@ -8,6 +8,8 @@ import ru.koshakmine.icstd.level.particle.Particle;
 import ru.koshakmine.icstd.modloader.Mod;
 import ru.koshakmine.icstd.modloader.ObjectFactory;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 public class AllParticles {
     public static ObjectFactory factory = Mod.getFactory();
 
@@ -22,6 +24,19 @@ public class AllParticles {
     public static final Particle RAIN = factory.addParticle(Rain::new);
     public static final Particle SNOWFLAKE = factory.addParticle(Snowflake::new);
 
-
     public static void init() {}
+
+    public static Particle[] glowwormList = new Particle[]{
+            YELLOW_GLOWWORM,
+            LIGHT_BLUE_GLOWWORM,
+            DARK_GREEN_GLOWWORM,
+            GREEN_GLOWWORM,
+            GOLDEN_GLOWWORM,
+            RED_GLOWWORM
+    };
+
+    public static Particle getRandomGlowworm() {
+        int random = ThreadLocalRandom.current().nextInt(glowwormList.length-1);
+        return glowwormList[random];
+    };
 }

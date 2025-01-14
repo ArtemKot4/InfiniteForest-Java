@@ -56,6 +56,6 @@ public class BlockModel {
 
     public int getBlockData() {
         return data;
-    }
+    };
 
 }
