@@ -1,5 +1,6 @@
 package com.artemkot4.infinite_forest.items;
 
+import com.artemkot4.infinite_forest.utils.DimensionUtils;
 import com.artemkot4.infinite_forest.utils.FItem;
 import com.zhekasmirnov.innercore.api.mod.adaptedscript.AdaptedScriptAPI.Dimensions;
 import ru.koshakmine.icstd.entity.Player;
@@ -37,8 +38,14 @@ public abstract class TransferCrystal extends FItem implements ClickableComponen
 
     @Override
     public void onClick(BlockPosition blockPosition, ItemStack itemStack, BlockData blockData, Player player) {
-        player.getRegion().message("From -> " + dimensionFrom + " | to -> " + dimensionTo);
-        if(player.getDimension() == dimensionFrom) {
+
+        int dimension = player.getDimension();
+
+        if(dimension == dimensionFrom) {
+
+            if(DimensionUtils.isSpaceDimension(dimension) || DimensionUtils.isSpaceDimension(dimensionTo)) {
+                return;
+            };
 
             Dimensions.transfer(player.getUid(), dimensionTo);
         };

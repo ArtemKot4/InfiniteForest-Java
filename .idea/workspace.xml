@@ -23,11 +23,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/zheka_krivoe_api_fix/Dimension.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/blockentity/bottle/FirefliesBottleLocalBlockEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            <state relative-caret-position="-54">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/items/TransferCrystal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,89 +48,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/zheka_krivoe_api_fix/TerrainLayer.java">
+        <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/utils/DimensionUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-              <folding>
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
-                <element signature="e#986#987#0" expanded="true" />
-                <element signature="e#1017#1018#0" expanded="true" />
-                <element signature="e#986#987#0" expanded="true" />
-                <element signature="e#1013#1014#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1073#1074#0" expanded="true" />
-                <element signature="e#1183#1184#0" expanded="true" />
-                <element signature="e#1213#1214#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/dimensions/NoiseLayer.class">
+        <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/InfiniteForest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/dimensions/NoiseConversion.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/dimensions/NoiseGenerator.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/dimensions/CustomDimensionGenerator.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="67" column="70" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/dimensions/AbstractTerrainGenerator.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/mod/adaptedscript/AdaptedScriptAPI.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="466" column="101" selection-start-line="466" selection-start-column="101" selection-end-line="466" selection-end-column="101" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/dimensions/CustomDimension.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-432">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="666">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -140,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/eucalyptus/EucalyptusLog.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/eucalyptus/EucalyptusBark.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/winter/WinterHewn.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/winter/WinterLog.java" />
@@ -157,7 +98,6 @@
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/RotatableLog.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/blockentity/Torch.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/wood/winter/WinterPlanks.java" />
-        <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/items/TransferCrystal.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/blockentity/Bottle.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/blockentity/FirefliesBottleLocalBlockEntity.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/blockentity/FirefliesBottleBlockEntity.java" />
@@ -166,7 +106,6 @@
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/blockentity/bottle/FirefliesBottle.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/blockentity/bottle/FirefliesBottleBlockEntity.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/blockentity/bottle/EmptyBottle.java" />
-        <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/blockentity/bottle/FirefliesBottleLocalBlockEntity.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/plants/BlueCrystalBush.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/AllBlocks.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/plants/Plant.java" />
@@ -180,7 +119,6 @@
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/learnings/ui/animation/SignAnimation.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/blockentity/bottle/Bottle.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/AllItems.java" />
-        <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/InfiniteForest.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/events/starfall/MeshGenerator.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/events/starfall/EStarSide.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/utils/MathHelper.java" />
@@ -191,6 +129,10 @@
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/Forest.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/zheka_krivoe_api_fix/TerrainLayer.java" />
         <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/zheka_krivoe_api_fix/Dimension.java" />
+        <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/blockentity/bottle/FirefliesBottleLocalBlockEntity.java" />
+        <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/InfiniteForest.java" />
+        <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/utils/DimensionUtils.java" />
+        <option value="$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/items/TransferCrystal.java" />
       </list>
     </option>
   </component>
@@ -243,7 +185,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="infinite_forest" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="dimension" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="toolchain-infinite-forest-java" type="b2602c69:ProjectViewProjectNode" />
@@ -251,8 +193,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="infinite_forest" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="plants" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="toolchain-infinite-forest-java" type="b2602c69:ProjectViewProjectNode" />
@@ -260,7 +201,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="infinite_forest" type="462c0819:PsiDirectoryNode" />
-              <item name="zheka_krivoe_api_fix" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,7 +250,7 @@
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2530395" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26443768" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -323,7 +264,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.7708674" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.119476266" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -335,56 +276,8 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven" order="7" weight="0.32978722" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25607902" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.7708674" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven" order="7" weight="0.32978722" />
-    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/mod/ui/elements/UIElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/particle/Snowflake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/events/ForestTick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/events/ServerPlayerTick.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -473,13 +366,6 @@
             <element signature="e#879#880#0" expanded="true" />
             <element signature="e#927#928#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/InfiniteForest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -586,13 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../toolchain/python/assemble-release.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/classpath/icstd.jar!/ru/koshakmine/icstd/network/NetworkPacket.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -614,17 +493,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/curse/ColdCurse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/curse/ColdCurse.java" />
     <entry file="jar://$PROJECT_DIR$/classpath/icstd.jar!/ru/koshakmine/icstd/runtime/saver/ISaveObject.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -646,27 +515,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/curse/Curse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/Forest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2232">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
-          <folding>
-            <element signature="e#2144#2145#0" expanded="true" />
-            <element signature="e#2220#2221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/curse/Curse.java" />
     <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/plants/Plant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -695,31 +544,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/mod/adaptedscript/AdaptedScriptAPI.class">
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/zheka_krivoe_api_fix/TerrainLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="466" column="101" selection-start-line="466" selection-start-column="101" selection-end-line="466" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/dimensions/CustomDimension.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/dimensions/AbstractTerrainGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/dimensions/CustomDimensionGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="67" column="70" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
+        <state relative-caret-position="522">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding>
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -730,10 +562,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/dimensions/NoiseLayer.class">
+    <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/dimensions/AbstractTerrainGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        <state relative-caret-position="72">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/mod/adaptedscript/AdaptedScriptAPI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8334">
+          <caret line="466" column="101" selection-start-line="466" selection-start-column="101" selection-end-line="466" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/dimensions/CustomDimension.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/zheka_krivoe_api_fix/Dimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/dimensions/CustomDimensionGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="67" column="70" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -744,33 +607,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/zheka_krivoe_api_fix/TerrainLayer.java">
+    <entry file="jar://$PROJECT_DIR$/../toolchain/classpath/innercore-test.jar!/com/zhekasmirnov/innercore/api/dimensions/NoiseLayer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        <state relative-caret-position="378">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../toolchain/python/assemble-release.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/blocks/blockentity/bottle/FirefliesBottleLocalBlockEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding>
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/zheka_krivoe_api_fix/Dimension.java">
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/dimension/Forest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="1449">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+          <folding>
+            <element signature="e#2144#2145#0" expanded="true" />
+            <element signature="e#2220#2221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/InfiniteForest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/utils/DimensionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/com/artemkot4/infinite_forest/items/TransferCrystal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
