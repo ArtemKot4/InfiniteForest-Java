@@ -2,6 +2,7 @@ package com.artemkot4.infinite_forest.blocks.blockentity.bottle;
 
 import com.artemkot4.infinite_forest.utils.BlockModel;
 import com.artemkot4.infinite_forest.dimension.biome.;
+import com.artemkot4.infinite_forest.utils.DimensionUtils;
 import com.artemkot4.infinite_forest.utils.FBlock;
 import com.artemkot4.infinite_forest.utils.IBlockModel;
 import com.zhekasmirnov.innercore.api.NativeBlock;
@@ -44,9 +45,8 @@ public abstract class Bottle extends FBlock implements IBlockModel, NeighbourCha
 
     @Override
     public void onRandomTick(Position position, BlockData blockData, Level level) {
-        EForestState state = ForestBiome.getState(position, level);
 
-        if(state != EBiomeState.BALANCE) {
+        if(DimensionUtils.getStateFor(position.x, position.z) != EForestState.BALANCE) {
 
             level.destroyBlock(position);
         }

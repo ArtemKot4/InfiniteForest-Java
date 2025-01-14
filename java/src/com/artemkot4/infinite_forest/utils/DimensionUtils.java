@@ -10,7 +10,7 @@ public class DimensionUtils {
         return TagRegistry.getOrCreateGroup("dimension").getAllWithTag("space").contains(dimension);
     };
 
-    public static EForestState getStateFor(int x, int z) {
+    public static EForestState getStateFor(float x, float z) {
         Level level = Level.getForDimension(75);
 
         if(level == null) {
